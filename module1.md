@@ -93,3 +93,6 @@
 >> - we can create, read, delete and update state
 >> - the `render()` function gets called again whenever state updates
 >> - we can pass state around as `props` through multiple levels of our components
+>> - state is as persistent in memory as your component
+>> - state is mutable
+>> - state can only be changed through the `setState` method
