@@ -86,6 +86,7 @@
 > `   }                                 `
 > ` }                                   `
 
+### Objective 2 - Share Data Between Components Using State and Props
 > state
 > =====
 >> - state is a component level storage object that we can use to hold onto data that may be needed
@@ -96,3 +97,16 @@
 >> - state is as persistent in memory as your component
 >> - state is mutable
 >> - state can only be changed through the `setState` method
+
+
+## Objective 3 - Respond to Events Triggered by User Interaction and Handle User Input via Forms in React
+> react event handlers
+> ====================
+>> - we respond to events triggered by user interations using event handlers
+>> - DOM events occur any time a user interacts with a DOM element (clicks, scrolls, etc.)
+>> - events are fired/trigger within the browser window and are attached to specific elements
+>> - JavaScript has an event model built into the language
+>> - in React, all events are wrapped inside a synthetic event object
+>> - in React, objects are pooled, meaning the event object can be used by other types of DOM elements
+>> - we can declare methods on classes using arrow functions
+>> >> - `handleEvent = () => alert('Event Triggered');`
